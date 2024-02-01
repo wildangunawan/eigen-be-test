@@ -1,5 +1,34 @@
 # Eigen BE Test Case
 
+### Use Case
+
+- Members can borrow books with conditions
+    - [X]  Members may not borrow more than 2 books
+    - [X]  Borrowed books are not borrowed by other members
+    - [X]  Member is currently not being penalized
+- Member returns the book with conditions
+    - [X]  The returned book is a book that the member has borrowed
+    - [X]  If the book is returned after more than 7 days, the member will be subject to a penalty. Member with penalty cannot able to borrow the book for 3 days
+- Check the book
+    - [X]  Shows all existing books and quantities
+    - [X]  Books that are being borrowed are not counted
+- Member check
+    - [X]  Shows all existing members
+    - [X]  The number of books being borrowed by each member
+
+### Requirements
+
+- [X]  it should be use any framework (using Laravel)
+- [X]  it should be use Swagger as API Documentation ([http://localhost:8000/api/documentation](http://localhost:8000/api/documentation))
+- [X]  it should be use Database (SQL/NoSQL)
+- [X]  it should be open sourced on your github repo
+
+### Extras
+
+- [ ]  Implement [DDD Pattern]([https://khalilstemmler.com/articles/categories/domain-driven-design/](https://khalilstemmler.com/articles/categories/domain-driven-design/))
+- [X]  Implement Unit Testing
+- [X]  Implement Feature Testing
+
 ## Installation
 
 Instalasi dilakukan seperti biasa pada proyek Laravel:
