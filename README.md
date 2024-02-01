@@ -29,6 +29,14 @@
 - [X]  Implement Unit Testing
 - [X]  Implement Feature Testing
 
+### Algoritma
+
+Tes algoritma dapat diakses pada folder [`algorithm`](algorithm).
+1. [Reverse alphabet](algorithm/soal1.py)
+2. [Mencari kata terpanjang](algorithm/soal2.py)
+3. [Menghitung jumlah kata pada array](algorithm/soal3.py)
+4. [Mencari pengurangan dari diagnoal matriks](algorithm/soal4.py)
+
 ## Installation
 
 Instalasi dilakukan seperti biasa pada proyek Laravel:
