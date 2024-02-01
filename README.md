@@ -1,5 +1,9 @@
 # Eigen BE Test Case
 
+Catatan: Saya lupa kalau Laravel tidak otomatis membuat git repository. 
+Saya membuat repository ini setelah selesai membuat aplikasi. 
+Oleh karena itu, nama commitnya adalah `Initial commit` saja dan tidak bisa menunjukkan flow development.
+
 ### Use Case
 
 - Members can borrow books with conditions
